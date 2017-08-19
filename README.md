@@ -11,7 +11,7 @@ I moved away from the monospace font choice towards what @kjhealy suggested in h
 
 This is how it looks right now:
 
-![Web view of the CV](https://github.com/oguzhanogreden/markdown-cv/blob/oopatch/outputs/screen.png)
+![Web view of the CV](https://github.com/oguzhanogreden/markdown-cv/blob/oopatch/outputs/webview.png)
 
 ### What is to be improved?
 
