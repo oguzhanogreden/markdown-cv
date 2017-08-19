@@ -67,8 +67,8 @@ table {
 body {
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: 'Crimson Text';
-	margin-top: 2em;
-	margin-left: 1em;
+	margin-top: 1.25em;
+	margin-left: .5em;
 }
 
 p {
@@ -154,16 +154,7 @@ a:hover {
 }
 
 #webaddress {
-	display: inline-block;
-	position: relative;
-	left: 25%;
-	color: #aaa;
-	font-family: Menlo,monospace,sans-serif;
-	font-size: 80%;
-}
-
-#webaddress a {
-	text-decoration: none;
+	display: none;
 }
 
 em {
@@ -174,8 +165,52 @@ strong {
 	font-weight: bold;
 }
 
-#address {
-	display: none;
+#address-box {
+	position: absolute;
+	top: 1.5em;
+	right: 1em;
+	text-align: right;
+	width: 40%;
+}
+
+#address-box a {
+	text-decoration: none;
+}
+
+#mail-line-first::after {
+	display: inline-block;
+	font-family: FontAwesome;
+	text-align: center;
+	content: '\f003';
+	width: 17px;
+}
+
+#mail-line {
+	padding-right: 17px;
+}
+
+#tel-line::after {
+	display: inline-block;
+	font-family: FontAwesome;
+	text-align: center;
+	content: '\f095';
+	width: 17px;
+}
+
+#email-line::after {
+	display: inline-block;
+	font-family: FontAwesome;
+	text-align: center;
+	content: '@';
+	width: 17px;
+}
+
+#url-line::after {
+	display: inline-block;
+	font-family: FontAwesome;
+	text-align: center;
+	content: '\f0ac';
+	width: 17px;
 }
 
 /*

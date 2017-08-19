@@ -70,6 +70,7 @@ body {
 	font-family: 'Crimson Text';
 	margin-top: 2em;
 	margin-left: 1em;
+	width: 75%;
 }
 
 p {
@@ -157,14 +158,35 @@ a:hover {
 #webaddress {
 	display: inline-block;
 	position: relative;
-	left: 25%;
-	color: #aaa;
-	font-family: Menlo,monospace,sans-serif;
-	font-size: 80%;
+	left: 22.5%;
 }
 
 #webaddress a {
 	text-decoration: none;
+}
+
+#web-email::before {
+	display: inline-block;
+	font-family: FontAwesome;
+	text-align: center;
+	content: '\f003';
+	width: 17px;
+}
+
+#web-linkedin-url::before {
+	display: inline-block;
+	font-family: FontAwesome;
+	text-align: center;
+	content: '\f0e1';
+	width: 17px;
+}
+
+#web-github-url::before {
+	display: inline-block;
+	font-family: FontAwesome;
+	text-align: center;
+	content: '\f09b';
+	width: 17px;
 }
 
 em {
@@ -175,10 +197,9 @@ strong {
 	font-weight: bold;
 }
 
-#address {
+#address-box {
 	display: none;
 }
-
 /*
 @media only screen and (max-width: 480px) {
 	make one column somehow...

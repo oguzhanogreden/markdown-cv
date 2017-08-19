@@ -2,13 +2,22 @@
 layout: cv
 title: Isaac Newtons's CV
 ---
+<div id='address-box' markdown='span'>
+`The Chapter Office Westminster Abbey`{:id='mail-line-first'}  
+`20 Dean's Yard, London, SW1P 3PA`{:id='mail-line'}  
+`+44(0)20 7222 5152`{:id='tel-line'}  
+<a target='blank' href='mailto:email@example.com'>`email@example.com`{:id='email-line'}</a>  
+<a target='blank' href='http://example.com'>`example.com`{:id='url-line'}</a>
+</div>
+
 # Isaac Newton
 Physicist, Mathematician, Cambridge professor.
 
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
-{: id='webaddress'}
-
+<div id='webaddress' markdown='span'>
+<a target='blank' href='mailto:email@example.com'>`E-mail`{:id='web-email'}</a> `|`
+<a target='blank' href='http://linkedin.com'>`LinkedIn`{:id='web-linkedin-url'}</a> `|`
+<a target='blank' href='http://github.com'>`GitHub`{:id='web-github-url'}</a>
+</div>
 
 ## Currently
 {:et: .entry_title}
