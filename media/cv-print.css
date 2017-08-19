@@ -115,6 +115,7 @@ h1 {
 h1+p {
 	font-style: italic;
 	font-size: 80%;
+	margin-top: .5em;
 	margin-bottom: 1em;
 }
 
