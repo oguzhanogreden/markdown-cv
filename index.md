@@ -29,19 +29,19 @@ Cooling, power series, optics, alchemy, planetary motions, apples.
 
 ## Education
 
-`1654-1660`
 __The King's School, Grantham.__
 {: et}
+`1654-1660`
 
-`June 1661 - now`
 __Trinity College, Cambridge__
 {: et}
+`June 1661 - now`
 
 - Sizar
 
-`1667 - death`
 __Trinity College, Cambridge__
 {: et}
+`1667 - death`
 
 - Fellow
 
@@ -49,9 +49,9 @@ __Trinity College, Cambridge__
 
 ## Awards
 
-`2012`
 President, *Royal Society*, London, UK
 {: et}
+`2012`
 
 Associate, *French Academy of Science*, Paris, France
 {: et}
@@ -64,33 +64,33 @@ Associate, *French Academy of Science*, Paris, France
 
 ### Journals
 
-`1669`
 Newton Sir I, De analysi per æquationes numero terminorum infinitas.
 {: et}
-
 `1669`
+
 Lectiones opticæ.
 {: et}
+`1669`
 
 etc. etc. etc.
 
 ### Patents
 
-`2012`
 Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
 {: et}
+`2012`
 
 ## Occupation
 
-`1600`
 __Royal Mint__, London
 {: et}
+`1600`
 - Warden
 - Minted coins
 
-`1600`
 __Lucasian professor of Mathematics__, Cambridge University
 {: et}
+`1600`
 
 
 <!-- ### Footer
