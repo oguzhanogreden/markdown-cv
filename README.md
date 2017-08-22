@@ -1,15 +1,15 @@
 kjh-vita-markdown
 ===========
 
-I tried to mimic the famous kjh-vita LaTeX template in Markdown, using CSS. You can see the live example [here!](https://oguzhanogreden.github.io/markdown-cv/)
+I tried to mimic the famous [kjh-vita](https://github.com/kjhealy/kjh-vita) LaTeX template in Markdown, using CSS. You can see the live example [here!](https://oguzhanogreden.github.io/markdown-cv/)
 
 ![demo](/media/demo.png)
 
-This repo is simply some changes over @elipapa's [markdown-cv](http://elipapa.github.io/markdown-cv) repo. I would definitely check his version too.
+This repo is simply some changes over [@elipapa](https://github.com/elipapa)'s [markdown-cv](http://elipapa.github.io/markdown-cv) repo. I would definitely check his version too.
 
 ## How to use?
 
-@elipapa wrote [very clear instructions](https://elipapa.github.io/markdown-cv/) for publishing your CV using this template. Please first check them.
+[@elipapa](https://github.com/elipapa/) wrote [very clear instructions](https://elipapa.github.io/markdown-cv/) for publishing your CV using this template. Please first check them.
 
 Using the template is pretty easy if you like it as it is :-) Take a side-by-side look at the [example](/index.html) page and the [`index.md`](/index.md). What you _need_ to modify is staring at you!
 
@@ -53,7 +53,7 @@ M.Sc. __Methodology & Statistics__, Utrecht University
 
 ---
 
-Seeing @elipapa's template, I wanted to use it with a different style. The result is satisfying to me. Markdown code became more complex but I think it is a fair price to pay for what I got. It was good CSS practice as well :-)
+Seeing [@elipapa](https://github.com/elipapa)'s template, I wanted to use it with a different style. The result is satisfying to me. Markdown code became more complex but I think it is a fair price to pay for what I got. It was good CSS practice as well :-)
 
 ### What is to be improved?
 
