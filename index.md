@@ -2,25 +2,36 @@
 layout: cv
 title: Isaac Newtons's CV
 ---
-<div id='address-box' markdown='span'>
-`The Chapter Office Westminster Abbey`{:id='mail-line-first'}  
-`20 Dean's Yard, London, SW1P 3PA`{:id='mail-line'}  
-`+44(0)20 7222 5152`{:id='tel-line'}  
-<a target='blank' href='mailto:email@example.com'>`email@example.com`{:id='email-line'}</a>  
+
+<!-- PRINT ADDRESS BOX (visible ONLY in print) -->
+<div id='address-box' markdown='block'>
+`The Chapter Office Westminster Abbey`{:id='mail-line-first'}
+<!-- keep this gap -->
+`20 Dean's Yard, London, SW1P 3PA`{:id='mail-line'}
+<!-- keep this gap -->
+`+44(0)20 7222 5152`{:id='tel-line'}
+<!-- keep this gap -->
+<a target='blank' href='mailto:email@example.com'>`email@example.com`{:id='email-line'}</a>
+<!-- keep this gap -->
 <a target='blank' href='http://example.com'>`example.com`{:id='url-line'}</a>
 </div>
+<!-- PRINT ADDRESS BOX ends -->
 
 # Isaac Newton
 Physicist, Mathematician, Cambridge professor.
 
+<!-- WEB ADDRESS BOX (visible ONLY in browser view) -->
 <div id='webaddress' markdown='span'>
 <a target='blank' href='mailto:email@example.com'>`E-mail`{:id='web-email'}</a> `|`
-<a target='blank' href='http://linkedin.com'>`LinkedIn`{:id='web-linkedin-url'}</a> `|`
+<a target='blank' href='http://linkedin.com'>`LinkedIn`{:id='web-linkedin-url'}</a>
+`|`
 <a target='blank' href='http://github.com'>`GitHub`{:id='web-github-url'}</a>
 </div>
+<!-- WEB ADDRESS BOX ends -->
 
 ## Currently
-{:et: .entry_title}
+{:et: .entry-title}
+<!-- Title of every `item` on your CV should be tagged with {: et} -->
 Standing on the shoulders of giants
 {: et}
 
@@ -35,6 +46,17 @@ Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.w
 Cooling, power series, optics, alchemy, planetary motions, apples.
 {: et}
 
+## Occupation
+
+__Royal Mint__, London
+{: et}
+`1600`
+- Warden
+- Minted coins
+
+__Lucasian professor of Mathematics__, Cambridge University
+{: et}
+`1600`
 
 ## Education
 
@@ -69,7 +91,8 @@ Associate, *French Academy of Science*, Paris, France
 
 ## Publications
 
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
+<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ)
+{: et} -->
 
 ### Journals
 
@@ -89,19 +112,37 @@ Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.tech
 {: et}
 `2012`
 
-## Occupation
+## Skills
 
-__Royal Mint__, London
-{: et}
-`1600`
-- Warden
-- Minted coins
+<div class='flex-container' markdown='block'>
 
-__Lucasian professor of Mathematics__, Cambridge University
-{: et}
-`1600`
+{: .skill-box}
+  - Academic
+  - Mathematics
+  - Astronomy
+  - Physics
 
+{: .skill-box}
+  - Other
+  - Alchemy
+  - Biblical chronology
 
-<!-- ### Footer
+</div>
 
-Last updated: May 2013 -->
+## Shoulders
+
+<div class='flex-container' markdown='block'>
+
+{: .ref-box}
+  - Galileo Galilei
+  - Polymath
+  - +39 055 2752 2
+  - galileo@soprailcielo.it
+
+{: .ref-box}
+  - Johannes Kepler
+  - Scientific Revolutionary
+  - +420 608 971 237
+  - kepler@uberdemhimmel.de
+
+</div>

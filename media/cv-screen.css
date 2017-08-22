@@ -70,6 +70,7 @@ body {
 	font-family: 'Crimson Text';
 	margin-top: 2em;
 	margin-left: 1em;
+	margin-bottom: 2em;
 	width: 75%;
 }
 
@@ -85,8 +86,8 @@ code {
 	color: #aaa;
 }
 
-p + p.entry_title, ul + p.entry_title {
-	margin-top: .5em;
+p + p.entry-title, ul + p.entry-title {
+	margin-top: 1em;
 }
 
 ul {
@@ -107,6 +108,12 @@ li ul {
 	left: -1.25em;
 }
 
+#offline-link {
+	position: absolute;
+	right: 0;
+	text-align: right;
+}
+
 
 h1 {
 	font-size: 300%;
@@ -117,6 +124,7 @@ h1 {
 h1+p {
 	font-style: italic;
 	font-size: 90%;
+	margin-top: .5em;
 	margin-bottom: 1em;
 }
 
@@ -200,7 +208,39 @@ strong {
 #address-box {
 	display: none;
 }
-/*
-@media only screen and (max-width: 480px) {
-	make one column somehow...
-}*/*/
+
+.flex-container {
+	position: relative;
+	left: 20%;
+	width: 75%;
+	display: flex;
+}
+
+.flex-container ul {
+	left: unset;
+}
+
+/* SKILLS TITLE STYLE */
+ul.skill-box > li:first-of-type {
+	margin-top: .25em;
+	color: #a00;
+	font-family: 'Fira Sans';
+	font-size: 80%;
+	font-weight: bold;
+}
+
+/* REFERENCES ICONS */
+
+ul.ref-box > li:nth-last-of-type(1)::before {
+	margin-right: .25em;
+	font-family: FontAwesome;
+	content: '\f003';
+	font-size: 80%;
+}
+
+ul.ref-box > li:nth-last-of-type(2)::before {
+	margin-right: .25em;
+	font-family: FontAwesome;
+	content: '\f095';
+	font-size: 80%;
+}
