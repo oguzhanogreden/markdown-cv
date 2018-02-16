@@ -38,7 +38,6 @@ I used to keep my CV in LaTeX, using kjh-vita template. The source included entr
 \ind M.Sc., Methodology \& Statistics for Behavioral, Biomedical and Social Sciences, \\ Utrecht University, The Netherlands, September 2015 - June 2017.\\ \hspace{0.35in} 
 
 Thesis: \emph{Variable Selection Strategies in Multinomial Prediction Models}. \\
-Supervisors: Maarten van Smeden, Ph.D and Marinus J. C. Eijkemans, Ph.D.
 \normalsize \vspace{0.05in}
 ~~~
 
